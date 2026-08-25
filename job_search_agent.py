@@ -16,6 +16,8 @@ from datetime import UTC, date, datetime
 from pathlib import Path
 from typing import Any
 
+import xml.etree.ElementTree as ET
+
 import requests
 import yaml
 
@@ -98,9 +100,130 @@ def fetch_arbeitnow(config: dict) -> list[dict]:
     return jobs
 
 
+def fetch_jobicy(config: dict) -> list[dict]:
+    """Fetch remote jobs from the Jobicy public API (https://jobicy.com/api/v2/remote-jobs).
+
+    No API key required.  Supports ``count`` (1-50) and ``tag`` query params.
+    """
+    jobs: list[dict] = []
+    for keyword in config.get("keywords", []):
+        url = "https://jobicy.com/api/v2/remote-jobs"
+        params = {"count": 50, "tag": keyword}
+        try:
+            resp = requests.get(url, params=params, timeout=20)
+            resp.raise_for_status()
+            data = resp.json()
+            for item in data.get("jobs", []):
+                jobs.append(
+                    {
+                        "title": item.get("jobTitle", ""),
+                        "company": item.get("companyName", ""),
+                        "location": item.get("jobGeo", "Remote"),
+                        "url": item.get("url", ""),
+                        "description": item.get("jobDescription", ""),
+                        "job_type": item.get("jobType", ""),
+                        "published_at": item.get("pubDate", ""),
+                        "source": "jobicy",
+                    }
+                )
+        except requests.RequestException as exc:
+            log.warning("Jobicy fetch failed for keyword '%s': %s", keyword, exc)
+    return jobs
+
+
+def fetch_weworkremotely(config: dict) -> list[dict]:
+    """Fetch remote jobs from We Work Remotely RSS feeds.
+
+    WWR provides per-category RSS feeds at https://weworkremotely.com.
+    The programming/dev category is used for tech roles.
+    """
+    jobs: list[dict] = []
+    feed_urls = [
+        "https://weworkremotely.com/categories/remote-programming-jobs.rss",
+        "https://weworkremotely.com/categories/remote-devops-sysadmin-jobs.rss",
+        "https://weworkremotely.com/categories/remote-data-science-jobs.rss",
+    ]
+    keywords = [k.lower() for k in config.get("keywords", [])]
+    for feed_url in feed_urls:
+        try:
+            resp = requests.get(feed_url, timeout=20)
+            resp.raise_for_status()
+            root = ET.fromstring(resp.text)
+            ns = {"content": "http://purl.org/rss/1.0/modules/content/"}
+            for item in root.iter("item"):
+                title = item.findtext("title") or ""
+                description = item.findtext("description") or ""
+                content = item.find("content:encoded", ns)
+                full_text = (content.text if content is not None else "") or description
+                title_lc = title.lower()
+                full_text_lc = full_text.lower()
+                if not any(kw in title_lc or kw in full_text_lc for kw in keywords):
+                    continue
+                link = item.findtext("link") or ""
+                pub_date = item.findtext("pubDate") or ""
+                region = item.findtext("{https://weworkremotely.com}region") or "Remote"
+                jobs.append(
+                    {
+                        "title": title,
+                        "company": item.findtext("{https://weworkremotely.com}company") or "",
+                        "location": region,
+                        "url": link,
+                        "description": full_text,
+                        "job_type": "full-time",
+                        "published_at": pub_date,
+                        "source": "weworkremotely",
+                    }
+                )
+        except (requests.RequestException, ET.ParseError) as exc:
+            log.warning("We Work Remotely fetch failed for %s: %s", feed_url, exc)
+    return jobs
+
+
+def fetch_themuse(config: dict) -> list[dict]:
+    """Fetch jobs from The Muse public API (https://www.themuse.com/api/public/jobs).
+
+    No API key required for basic use.
+    """
+    jobs: list[dict] = []
+    for keyword in config.get("keywords", []):
+        url = "https://www.themuse.com/api/public/jobs"
+        params = {"category": keyword, "page": 1, "descending": "true"}
+        try:
+            resp = requests.get(url, params=params, timeout=20)
+            resp.raise_for_status()
+            data = resp.json()
+            for item in data.get("results", []):
+                locations = item.get("locations", [])
+                location = locations[0].get("name", "Remote") if locations else "Remote"
+                levels = item.get("levels", [])
+                job_type = levels[0].get("name", "") if levels else ""
+                refs = item.get("refs", {})
+                link = refs.get("landing_page", "")
+                # Build description from contents blocks
+                contents = item.get("contents", "")
+                jobs.append(
+                    {
+                        "title": item.get("name", ""),
+                        "company": item.get("company", {}).get("name", ""),
+                        "location": location,
+                        "url": link,
+                        "description": contents,
+                        "job_type": job_type.lower(),
+                        "published_at": item.get("publication_date", ""),
+                        "source": "themuse",
+                    }
+                )
+        except requests.RequestException as exc:
+            log.warning("The Muse fetch failed for keyword '%s': %s", keyword, exc)
+    return jobs
+
+
 SOURCE_FETCHERS = {
     "remotive": fetch_remotive,
     "arbeitnow": fetch_arbeitnow,
+    "jobicy": fetch_jobicy,
+    "weworkremotely": fetch_weworkremotely,
+    "themuse": fetch_themuse,
 }
 
 # ---------------------------------------------------------------------------

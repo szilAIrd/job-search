@@ -16,7 +16,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from job_search_agent import (
     deduplicate,
     fetch_arbeitnow,
+    fetch_jobicy,
     fetch_remotive,
+    fetch_themuse,
+    fetch_weworkremotely,
     normalise,
     passes_filters,
     render_markdown,
@@ -181,6 +184,70 @@ def _mock_get(url, **kwargs):
     return resp
 
 
+JOBICY_RESPONSE = {
+    "jobs": [
+        {
+            "jobTitle": "Python Remote Engineer",
+            "companyName": "Gamma Inc",
+            "jobGeo": "Worldwide",
+            "url": "https://jobicy.com/job/3",
+            "jobDescription": "Python FastAPI remote position",
+            "jobType": "full-time",
+            "pubDate": "2026-01-01",
+        }
+    ]
+}
+
+WWR_RSS = """\
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wwr="https://weworkremotely.com">
+  <channel>
+    <item>
+      <title>Senior Python Engineer at Delta Ltd</title>
+      <link>https://weworkremotely.com/job/4</link>
+      <description>Python backend engineer needed</description>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <wwr:company>Delta Ltd</wwr:company>
+      <wwr:region>Worldwide</wwr:region>
+    </item>
+  </channel>
+</rss>
+"""
+
+THEMUSE_RESPONSE = {
+    "results": [
+        {
+            "name": "Python Software Engineer",
+            "company": {"name": "Epsilon Co"},
+            "locations": [{"name": "Remote"}],
+            "levels": [{"name": "Mid Level"}],
+            "refs": {"landing_page": "https://themuse.com/job/5"},
+            "contents": "We are looking for a Python developer",
+            "publication_date": "2026-01-01",
+        }
+    ]
+}
+
+
+def _mock_get_extended(url, **kwargs):
+    resp = MagicMock()
+    resp.raise_for_status = MagicMock()
+    if "remotive" in url:
+        resp.json.return_value = REMOTIVE_RESPONSE
+    elif "arbeitnow" in url:
+        resp.json.return_value = ARBEITNOW_RESPONSE
+    elif "jobicy" in url:
+        resp.json.return_value = JOBICY_RESPONSE
+    elif "weworkremotely" in url:
+        resp.text = WWR_RSS
+    elif "themuse" in url:
+        resp.json.return_value = THEMUSE_RESPONSE
+    else:
+        resp.json.return_value = {}
+    return resp
+
+
 def test_fetch_remotive():
     config = {"keywords": ["Python"]}
     with patch("job_search_agent.requests.get", side_effect=_mock_get):
@@ -197,3 +264,29 @@ def test_fetch_arbeitnow():
     assert len(jobs) == 1
     assert jobs[0]["title"] == "Python Backend Developer"
     assert jobs[0]["source"] == "arbeitnow"
+
+
+def test_fetch_jobicy():
+    config = {"keywords": ["Python"]}
+    with patch("job_search_agent.requests.get", side_effect=_mock_get_extended):
+        jobs = fetch_jobicy(config)
+    assert len(jobs) == 1
+    assert jobs[0]["title"] == "Python Remote Engineer"
+    assert jobs[0]["source"] == "jobicy"
+
+
+def test_fetch_weworkremotely():
+    config = {"keywords": ["python"]}
+    with patch("job_search_agent.requests.get", side_effect=_mock_get_extended):
+        jobs = fetch_weworkremotely(config)
+    assert any(j["source"] == "weworkremotely" for j in jobs)
+    assert any("Python" in j["title"] for j in jobs)
+
+
+def test_fetch_themuse():
+    config = {"keywords": ["Python"]}
+    with patch("job_search_agent.requests.get", side_effect=_mock_get_extended):
+        jobs = fetch_themuse(config)
+    assert len(jobs) == 1
+    assert jobs[0]["title"] == "Python Software Engineer"
+    assert jobs[0]["source"] == "themuse"
