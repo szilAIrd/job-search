@@ -254,9 +254,13 @@ def passes_filters(job: dict, config: dict) -> bool:
             return False
 
     # Job type filter (if configured)
-    desired_types = [jt.lower() for jt in config.get("job_types", [])]
+    desired_types = [str(jt).lower() for jt in config.get("job_types", []) if jt]
     if desired_types:
-        job_type_norm = job.get("job_type", "").lower()
+        job_type_value = job.get("job_type", "")
+        if isinstance(job_type_value, list):
+            job_type_norm = " ".join(str(part) for part in job_type_value if part is not None).lower()
+        else:
+            job_type_norm = str(job_type_value or "").lower()
         if not any(dt in job_type_norm for dt in desired_types):
             log.debug("Job '%s' rejected – job_type '%s' not in %s", job["title"], job.get("job_type"), desired_types)
             return False

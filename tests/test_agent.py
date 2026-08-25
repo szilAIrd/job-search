@@ -85,6 +85,11 @@ def test_passes_filters_wrong_job_type():
     assert passes_filters(BAD_JOB_TYPE, BASE_CONFIG) is False
 
 
+def test_passes_filters_job_type_as_list():
+    list_job_type = {**GOOD_JOB, "job_type": ["full-time", "contract"]}
+    assert passes_filters(list_job_type, BASE_CONFIG) is True
+
+
 def test_passes_filters_no_job_types_configured():
     config = {**BASE_CONFIG, "job_types": []}
     # Should not reject based on job_type when list is empty
