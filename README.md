@@ -14,7 +14,7 @@ requirements.yaml  ──►  job_search_agent.py  ──►  results/YYYY-MM-DD
 
 1. The GitHub Actions workflow ([`.github/workflows/daily_job_search.yml`](.github/workflows/daily_job_search.yml)) triggers every day at **07:00 UTC**.
 2. The agent reads [`requirements.yaml`](requirements.yaml) to load your search preferences.
-3. It fetches jobs from configured sources (currently **Remotive** and **Arbeitnow** – both free, no API key needed).
+3. It fetches jobs from configured sources (currently **Remotive**, **Arbeitnow**, **Jobicy**, **We Work Remotely**, and **The Muse** – all free, no API key needed).
 4. Jobs are **filtered** (required skills, job type), **deduplicated**, and **scored** by keyword/skill relevance.
 5. Results are written to `results/latest.md` (and a date-stamped file) and committed back to the repository.
 
@@ -31,7 +31,7 @@ Edit [`requirements.yaml`](requirements.yaml):
 | `required_skills` | **All** must appear in the job posting; failing jobs are dropped |
 | `preferred_skills` | Increase the job's relevance score |
 | `job_types` | `full-time`, `contract`, `part-time`, etc. |
-| `sources` | Which APIs to query (`remotive`, `arbeitnow`) |
+| `sources` | Which APIs to query (`remotive`, `arbeitnow`, `jobicy`, `weworkremotely`, `themuse`) |
 
 ---
 
