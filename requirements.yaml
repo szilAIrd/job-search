@@ -5,40 +5,26 @@
 
 # --- Keywords to search for (any match) ---
 keywords:
-  - Python developer
-  - software engineer
-  - backend engineer
-  - machine learning engineer
+  - renewable energy
+  - simulation
+  - matlab
 
 # --- Locations to search (leave empty for remote-only) ---
 locations:
   - Remote
-  - Berlin, Germany
-  - Munich, Germany
+  - vienna
 
 # --- Required skills (ALL must appear in job description) ---
 required_skills:
-  - Python
 
 # --- Nice-to-have skills (used for ranking, not filtering) ---
 preferred_skills:
-  - FastAPI
-  - Django
-  - PostgreSQL
-  - Docker
-  - Kubernetes
-  - AWS
-  - GCP
-  - machine learning
-  - LLM
 
 # --- Minimum experience years (0 = no filter) ---
 min_experience_years: 0
 
 # --- Job types ---
 job_types:
-  - full-time
-  - contract
 
 # --- Sources to scrape ---
 sources:
@@ -47,3 +33,5 @@ sources:
   - jobicy         # https://jobicy.com (remote jobs, free API)
   - weworkremotely # https://weworkremotely.com (remote jobs, free RSS)
   - themuse        # https://www.themuse.com (global jobs, free API)
+  - linkedin       # https://www.linkedin.com (global jobs, free API)
+  - https://climatebase.org/  # https://www.climatebase.org (global jobs, free API)
