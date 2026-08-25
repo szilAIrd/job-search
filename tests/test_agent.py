@@ -96,6 +96,14 @@ def test_passes_filters_no_job_types_configured():
     assert passes_filters(BAD_JOB_TYPE, config) is True
 
 
+def test_passes_filters_none_config_lists():
+    config = {
+        "required_skills": None,
+        "job_types": None,
+    }
+    assert passes_filters(GOOD_JOB, config) is True
+
+
 # ---------------------------------------------------------------------------
 # Scoring
 # ---------------------------------------------------------------------------
@@ -110,6 +118,14 @@ def test_score_job_preferred_skills_add_score():
     job_with = {**GOOD_JOB, "description": "Python developer with Docker and Kubernetes"}
     job_without = {**GOOD_JOB, "description": "Python developer"}
     assert score_job(job_with, BASE_CONFIG) > score_job(job_without, BASE_CONFIG)
+
+
+def test_score_job_none_config_lists():
+    config = {
+        "keywords": None,
+        "preferred_skills": None,
+    }
+    assert score_job(GOOD_JOB, config) == 0
 
 
 # ---------------------------------------------------------------------------

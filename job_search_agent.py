@@ -248,13 +248,13 @@ def passes_filters(job: dict, config: dict) -> bool:
     combined = f"{title_norm} {desc_norm}"
 
     # Required skills – ALL must appear somewhere in title + description
-    for skill in config.get("required_skills", []):
+    for skill in (config.get("required_skills") or []):
         if skill.lower() not in combined:
             log.debug("Job '%s' rejected – missing required skill '%s'", job["title"], skill)
             return False
 
     # Job type filter (if configured)
-    desired_types = [str(jt).lower() for jt in config.get("job_types", []) if jt]
+    desired_types = [str(jt).lower() for jt in (config.get("job_types") or []) if jt]
     if desired_types:
         job_type_value = job.get("job_type", "")
         if isinstance(job_type_value, list):
@@ -274,14 +274,14 @@ def score_job(job: dict, config: dict) -> int:
     score = 0
 
     # Keyword in title = extra weight
-    for kw in config.get("keywords", []):
+    for kw in (config.get("keywords") or []):
         if kw.lower() in normalise(job.get("title", "")):
             score += 10
         elif kw.lower() in combined:
             score += 3
 
     # Preferred skills
-    for skill in config.get("preferred_skills", []):
+    for skill in (config.get("preferred_skills") or []):
         if skill.lower() in combined:
             score += 5
 
