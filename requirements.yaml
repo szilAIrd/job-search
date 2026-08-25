@@ -1,0 +1,46 @@
+# Job Search Requirements
+#
+# Edit this file to customize what jobs the agent searches for.
+# The agent reads this file on every run.
+
+# --- Keywords to search for (any match) ---
+keywords:
+  - Python developer
+  - software engineer
+  - backend engineer
+  - machine learning engineer
+
+# --- Locations to search (leave empty for remote-only) ---
+locations:
+  - Remote
+  - Berlin, Germany
+  - Munich, Germany
+
+# --- Required skills (ALL must appear in job description) ---
+required_skills:
+  - Python
+
+# --- Nice-to-have skills (used for ranking, not filtering) ---
+preferred_skills:
+  - FastAPI
+  - Django
+  - PostgreSQL
+  - Docker
+  - Kubernetes
+  - AWS
+  - GCP
+  - machine learning
+  - LLM
+
+# --- Minimum experience years (0 = no filter) ---
+min_experience_years: 0
+
+# --- Job types ---
+job_types:
+  - full-time
+  - contract
+
+# --- Sources to scrape ---
+sources:
+  - remotive       # https://remotive.com  (remote jobs, free API)
+  - arbeitnow      # https://www.arbeitnow.com (EU-focused, free API)
