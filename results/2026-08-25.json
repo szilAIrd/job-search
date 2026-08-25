@@ -1,123 +1,57 @@
 [
   {
-    "title": "Senior AI Software Engineer",
+    "title": "Delivery Manager - Heating and cooling (m/f/d)",
+    "company": "1KOMMA5˚",
+    "location": "Berlin",
+    "url": "https://www.arbeitnow.com/jobs/companies/1komma50/delivery-manager-heating-and-cooling-berlin-73052",
+    "job_type": "",
+    "published_at": 1787657448,
+    "source": "arbeitnow",
+    "_score": 3
+  },
+  {
+    "title": "Staff Backend Software Engineer - Python & GO",
+    "company": "Physicsx",
+    "location": "London",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/physicsx/staff-backend-software-engineer-python-go-london-418086",
+    "job_type": "",
+    "published_at": 1787651717,
+    "source": "arbeitnow",
+    "_score": 3
+  },
+  {
+    "title": "Principal HR Business Partner",
+    "company": "Behavox",
+    "location": "London",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/behavox/principal-hr-business-partner-london-348068",
+    "job_type": "",
+    "published_at": 1787651715,
+    "source": "arbeitnow",
+    "_score": 3
+  },
+  {
+    "title": "Data Center Location Strategy Manager",
+    "company": "Meta",
+    "location": "USA",
+    "url": "https://jobicy.com/jobs/148135-data-center-location-strategy-manager",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-08-05T09:45:05+00:00",
+    "source": "jobicy",
+    "_score": 3
+  },
+  {
+    "title": "Senior Software Engineer (Golang)",
     "company": "Zartis",
     "location": "Europe",
-    "url": "https://jobicy.com/jobs/150580-senior-ai-software-engineer-2",
+    "url": "https://jobicy.com/jobs/149948-senior-software-engineer-golang",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-12T14:19:33+00:00",
+    "published_at": "2026-08-01T03:00:45+00:00",
     "source": "jobicy",
-    "_score": 40
-  },
-  {
-    "title": "Senior Software Engineer – Backend (USA Only - 100% Remote)",
-    "company": "Close",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151308-senior-software-engineer-backend-usa-only-100-remote",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-21T10:00:39+00:00",
-    "source": "jobicy",
-    "_score": 35
-  },
-  {
-    "title": "Backend Engineer (AI Agents)",
-    "company": "Maze",
-    "location": "Europe",
-    "url": "https://jobicy.com/jobs/151458-backend-engineer-ai-agents",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-24T16:26:36+00:00",
-    "source": "jobicy",
-    "_score": 35
-  },
-  {
-    "title": "Senior AI Engineer",
-    "company": "eMerchantPay",
-    "location": "Bulgaria",
-    "url": "https://jobicy.com/jobs/144139-senior-ai-engineer-3",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-21T03:40:03+00:00",
-    "source": "jobicy",
-    "_score": 33
-  },
-  {
-    "title": "Applied Data Scientist / Machine Learning Engineer (Decision Intelligence)",
-    "company": "WorkWave",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/147495-applied-data-scientist-machine-learning-engineer-decision-intelligence",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-07-25T10:45:06+00:00",
-    "source": "jobicy",
-    "_score": 33
-  },
-  {
-    "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T17:00:04+00:00",
-    "source": "jobicy",
-    "_score": 30
-  },
-  {
-    "title": "Senior Software Engineer, Platform",
-    "company": "Qventus",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151513-senior-software-engineer-platform",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-24T17:44:29+00:00",
-    "source": "jobicy",
-    "_score": 30
-  },
-  {
-    "title": "Senior Software Engineer, Application Platform",
-    "company": "Qventus",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151508-senior-software-engineer-application-platform",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-24T17:40:07+00:00",
-    "source": "jobicy",
-    "_score": 30
-  },
-  {
-    "title": "Backend Software Engineer",
-    "company": "Northflank",
-    "location": "Europe",
-    "url": "https://jobicy.com/jobs/150975-backend-software-engineer-2",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-18T10:55:11+00:00",
-    "source": "jobicy",
-    "_score": 30
-  },
-  {
-    "title": "Staff Software Engineer",
-    "company": "Cloudbeds",
-    "location": "Europe",
-    "url": "https://jobicy.com/jobs/150585-staff-software-engineer-3",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-12T14:19:41+00:00",
-    "source": "jobicy",
-    "_score": 30
+    "_score": 3
   },
   {
     "title": "Software Engineer — AI-Native CAD Integrations",
@@ -129,79 +63,55 @@
     ],
     "published_at": "2026-08-25T14:28:40+00:00",
     "source": "jobicy",
-    "_score": 25
+    "_score": 3
   },
   {
-    "title": "Senior Software Engineer (Storage) - remote in the US",
-    "company": "Mirantis",
+    "title": "Staff ML Systems Engineer",
+    "company": "Quilter",
     "location": "USA",
-    "url": "https://jobicy.com/jobs/149690-senior-software-engineer-storage-remote-in-the-us",
+    "url": "https://jobicy.com/jobs/151571-staff-ml-systems-engineer",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-25T03:45:16+00:00",
+    "published_at": "2026-08-25T14:27:42+00:00",
     "source": "jobicy",
-    "_score": 25
+    "_score": 3
   },
   {
-    "title": "Software Engineer, Sustaining Engineering",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149524-software-engineer-sustaining-engineering",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:35:02+00:00",
-    "source": "jobicy",
-    "_score": 25
-  },
-  {
-    "title": "Software Engineer",
-    "company": "PolicyMe",
-    "location": "Canada",
-    "url": "https://jobicy.com/jobs/150902-software-engineer-4",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-17T13:03:49+00:00",
-    "source": "jobicy",
-    "_score": 25
-  },
-  {
-    "title": "Senior Software Engineer",
-    "company": "PolicyMe",
-    "location": "Canada",
-    "url": "https://jobicy.com/jobs/150901-senior-software-engineer-2",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-17T13:03:47+00:00",
-    "source": "jobicy",
-    "_score": 25
-  },
-  {
-    "title": "Junior Software Engineer",
-    "company": "PolicyMe",
-    "location": "Canada",
-    "url": "https://jobicy.com/jobs/150896-junior-software-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-17T13:03:36+00:00",
-    "source": "jobicy",
-    "_score": 25
-  },
-  {
-    "title": "Senior Software Engineer - Data Platform",
-    "company": "Samsara",
+    "title": "Senior ML Engineer",
+    "company": "Quilter",
     "location": "USA",
-    "url": "https://jobicy.com/jobs/145935-senior-software-engineer-data-platform-2",
+    "url": "https://jobicy.com/jobs/151566-senior-ml-engineer",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-15T04:50:07+00:00",
+    "published_at": "2026-08-25T14:25:54+00:00",
     "source": "jobicy",
-    "_score": 25
+    "_score": 3
+  },
+  {
+    "title": "Principal Product Data Scientist",
+    "company": "Tripadvisor",
+    "location": "Poland",
+    "url": "https://jobicy.com/jobs/151535-principal-product-data-scientist",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-08-25T04:15:14+00:00",
+    "source": "jobicy",
+    "_score": 3
+  },
+  {
+    "title": "Lead Forest Ecologist",
+    "company": "WSP",
+    "location": "USA",
+    "url": "https://jobicy.com/jobs/144378-lead-forest-ecologist",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-08-25T03:50:22+00:00",
+    "source": "jobicy",
+    "_score": 3
   },
   {
     "title": "Machine Learning Engineer",
@@ -213,703 +123,43 @@
     ],
     "published_at": "2026-08-25T03:50:15+00:00",
     "source": "jobicy",
-    "_score": 25
+    "_score": 3
   },
   {
-    "title": "Senior Machine Learning Engineer",
-    "company": "Sona",
-    "location": "Europe,  UK",
-    "url": "https://jobicy.com/jobs/150930-senior-machine-learning-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-17T14:17:13+00:00",
-    "source": "jobicy",
-    "_score": 25
-  },
-  {
-    "title": "Senior Machine Learning Engineer, GenAI Security",
-    "company": "Reddit",
+    "title": "Training & Document Control Manager",
+    "company": "Natera",
     "location": "USA",
-    "url": "https://jobicy.com/jobs/143125-senior-machine-learning-engineer-genai-security",
+    "url": "https://jobicy.com/jobs/149686-training-document-control-manager",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-06T07:20:03+00:00",
+    "published_at": "2026-08-25T03:45:12+00:00",
     "source": "jobicy",
-    "_score": 25
+    "_score": 3
   },
   {
-    "title": "Senior AI Engineer",
-    "company": "Sonatus",
-    "location": "Poland",
-    "url": "https://jobicy.com/jobs/151536-senior-ai-engineer-7",
+    "title": "Senior Customer Success Engineer",
+    "company": "Veeam Software",
+    "location": "UAE",
+    "url": "https://jobicy.com/jobs/151408-senior-customer-success-engineer",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-25T04:15:29+00:00",
+    "published_at": "2026-08-22T16:51:36+00:00",
     "source": "jobicy",
-    "_score": 25
+    "_score": 3
   },
   {
-    "title": "LMG Staffing Solutions: AI-Assisted Software Engineer, Web Applications",
-    "company": "",
-    "location": "Remote",
-    "url": "https://weworkremotely.com/remote-jobs/lmg-staffing-solutions-ai-assisted-software-engineer-web-applications",
-    "job_type": "full-time",
-    "published_at": "Tue, 04 Aug 2026 22:12:17 +0000",
-    "source": "weworkremotely",
-    "_score": 25
-  },
-  {
-    "title": "Solutions Architect - MENA",
-    "company": "Deepgram",
-    "location": "EMEA",
-    "url": "https://jobicy.com/jobs/151446-solutions-architect-mena",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-24T12:09:08+00:00",
-    "source": "jobicy",
-    "_score": 23
-  },
-  {
-    "title": "Pre-Sales Solutions Engineer (EST or PST)",
-    "company": "Deepgram",
+    "title": "Senior Manager, AMERs Customer Success",
+    "company": "Veeam Software",
     "location": "USA",
-    "url": "https://jobicy.com/jobs/151436-pre-sales-solutions-engineer-est-or-pst",
+    "url": "https://jobicy.com/jobs/151405-senior-manager-amers-customer-success",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-23T19:32:56+00:00",
+    "published_at": "2026-08-22T16:51:32+00:00",
     "source": "jobicy",
-    "_score": 23
-  },
-  {
-    "title": "Senior Software Engineer (Game Engine)",
-    "company": "Playson",
-    "location": "Europe",
-    "url": "https://jobicy.com/jobs/146058-senior-software-engineer-game-engine",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-13T09:26:48+00:00",
-    "source": "jobicy",
-    "_score": 23
-  },
-  {
-    "title": "Ubuntu Sales Engineer (Entry-Level)",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149545-ubuntu-sales-engineer-entry-level",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:15:04+00:00",
-    "source": "jobicy",
-    "_score": 23
-  },
-  {
-    "title": "Lemon.io: Senior DevOps Engineer",
-    "company": "",
-    "location": "Remote",
-    "url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-devops-engineer-3",
-    "job_type": "full-time",
-    "published_at": "Mon, 24 Aug 2026 11:52:38 +0000",
-    "source": "weworkremotely",
-    "_score": 21
-  },
-  {
-    "title": "Senior Developer Success Engineer - West",
-    "company": "Temporal Technologies",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151357-senior-developer-success-engineer-west",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T04:02:24+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Software Engineer - Python - Container Images",
-    "company": "Canonical",
-    "location": "APAC,  EMEA,  LATAM,  Canada,  USA",
-    "url": "https://jobicy.com/jobs/150364-software-engineer-python-container-images",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-09T03:32:32+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Workflow Developer & Tester",
-    "company": "Webbing",
-    "location": "Romania",
-    "url": "https://jobicy.com/jobs/143728-workflow-developer-tester",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-05T05:45:07+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Application Security Engineering Manager",
-    "company": "Synthesia",
-    "location": "Europe,  UK",
-    "url": "https://jobicy.com/jobs/146803-application-security-engineering-manager",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-19T02:11:46+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Software Engineer - Secure Container Images",
-    "company": "Canonical",
-    "location": "EMEA",
-    "url": "https://jobicy.com/jobs/150994-software-engineer-secure-container-images",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-18T11:00:52+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Senior Software Engineer - Verification Platform",
-    "company": "Veriff",
-    "location": "Estonia,  Spain",
-    "url": "https://jobicy.com/jobs/151549-senior-software-engineer-verification-platform",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-25T04:28:20+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Senior Software Engineer",
-    "company": "Qventus",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151505-senior-software-engineer-5",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-24T17:39:16+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Manager, Software Engineering",
-    "company": "AlertMedia",
-    "location": "Mexico",
-    "url": "https://jobicy.com/jobs/151469-manager-software-engineering",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-24T16:41:59+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "AI Software Engineer II, Government Technology",
-    "company": "ICON plc",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151298-ai-software-engineer-ii-government-technology",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-21T09:50:12+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Distributed Systems Testing Software Engineer, Python / Go",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/151013-distributed-systems-testing-software-engineer-python-go",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-18T11:11:26+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Product Engineer (Full Stack)",
-    "company": "Maze",
-    "location": "Europe",
-    "url": "https://jobicy.com/jobs/151461-product-engineer-full-stack",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-24T16:27:28+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Machine Learning Engineer",
-    "company": "Maze",
-    "location": "Europe",
-    "url": "https://jobicy.com/jobs/151465-machine-learning-engineer-6",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-24T16:28:41+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Machine Learning Engineer",
-    "company": "Skylum",
-    "location": "Europe,  Ukraine",
-    "url": "https://jobicy.com/jobs/149063-machine-learning-engineer-4",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-10T04:20:10+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Engineering Manager - MLOps & Analytics",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149521-engineering-manager-mlops-analytics",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:40:02+00:00",
-    "source": "jobicy",
-    "_score": 20
-  },
-  {
-    "title": "Senior Software Engineer - Python/MongoDB",
-    "company": "Canonical",
-    "location": "EMEA",
-    "url": "https://jobicy.com/jobs/149974-senior-software-engineer-python-mongodb",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-01T03:03:54+00:00",
-    "source": "jobicy",
-    "_score": 18
-  },
-  {
-    "title": "Software Engineer - Solutions Engineering",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149560-software-engineer-solutions-engineering",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T17:05:04+00:00",
-    "source": "jobicy",
-    "_score": 18
-  },
-  {
-    "title": "Cloud Field Engineer",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149523-cloud-field-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:40:05+00:00",
-    "source": "jobicy",
-    "_score": 18
-  },
-  {
-    "title": "Staff AI Engineer",
-    "company": "Acquia, Inc.",
-    "location": "Canada",
-    "url": "https://jobicy.com/jobs/151267-staff-ai-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-20T19:49:49+00:00",
-    "source": "jobicy",
-    "_score": 18
-  },
-  {
-    "title": "Back End Engineer",
-    "company": "Oddball",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151387-back-end-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T12:17:27+00:00",
-    "source": "jobicy",
-    "_score": 18
-  },
-  {
-    "title": "Data Engineer",
-    "company": "Gopuff",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/150836-data-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-16T03:41:13+00:00",
-    "source": "jobicy",
-    "_score": 18
-  },
-  {
-    "title": "Containerization & Virtualisation Engineer",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149576-containerization-virtualisation-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:47:10+00:00",
-    "source": "jobicy",
-    "_score": 16
-  },
-  {
-    "title": "Lemon.io: Senior AI Engineer",
-    "company": "",
-    "location": "Remote",
-    "url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-ai-engineer-4",
-    "job_type": "full-time",
-    "published_at": "Wed, 05 Aug 2026 08:23:41 +0000",
-    "source": "weworkremotely",
-    "_score": 16
-  },
-  {
-    "title": "Full Stack Engineer",
-    "company": "Roboflow",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151415-full-stack-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T18:42:05+00:00",
-    "source": "jobicy",
-    "_score": 15
-  },
-  {
-    "title": "Chief Architect",
-    "company": "Legion",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151374-chief-architect",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T04:32:35+00:00",
-    "source": "jobicy",
-    "_score": 15
-  },
-  {
-    "title": "Senior Frontend Engineer – Growth (USA Only - 100% Remote)",
-    "company": "Close",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151313-senior-frontend-engineer-growth-usa-only-100-remote",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-21T10:01:59+00:00",
-    "source": "jobicy",
-    "_score": 15
-  },
-  {
-    "title": "Software Engineer, Security Observability",
-    "company": "OpenAI",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151224-software-engineer-security-observability",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-20T14:33:39+00:00",
-    "source": "jobicy",
-    "_score": 15
-  },
-  {
-    "title": "Software Engineer (Technical Leadership)",
-    "company": "Meta",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/150665-software-engineer-technical-leadership",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-14T13:01:06+00:00",
-    "source": "jobicy",
-    "_score": 15
-  },
-  {
-    "title": "Java Backend Engineer (AI/LLM Chatbot, Customer Service)",
-    "company": "Binance",
-    "location": "APAC",
-    "url": "https://jobicy.com/jobs/142198-java-backend-engineer-ai-llm-chatbot-customer-service",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-17T05:40:08+00:00",
-    "source": "jobicy",
-    "_score": 15
-  },
-  {
-    "title": "Senior Backend Engineer, AI Engineering: Chat",
-    "company": "GitLab",
-    "location": "UK",
-    "url": "https://jobicy.com/jobs/150061-senior-backend-engineer-ai-engineering-chat",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-01T03:29:44+00:00",
-    "source": "jobicy",
-    "_score": 15
-  },
-  {
-    "title": "Senior Software Engineer (Backend)",
-    "company": "Canonical",
-    "location": "EMEA",
-    "url": "https://jobicy.com/jobs/150125-senior-software-engineer-backend",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-03T10:21:31+00:00",
-    "source": "jobicy",
-    "_score": 15
-  },
-  {
-    "title": "Senior Backend Software Engineer (USA Remote)",
-    "company": "Turnitin, LLC",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/148325-senior-backend-software-engineer-usa-remote",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-07-28T10:45:03+00:00",
-    "source": "jobicy",
-    "_score": 15
-  },
-  {
-    "title": "Cloud Engineer - VMWare",
-    "company": "ManTech",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/143887-cloud-engineer-vmware",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-21T03:45:04+00:00",
-    "source": "jobicy",
-    "_score": 15
-  },
-  {
-    "title": "Senior Database Reliability Engineer",
-    "company": "ClickUp",
-    "location": "Bulgaria,  Czechia,  Hungary,  Poland,  Ukraine",
-    "url": "https://jobicy.com/jobs/151265-senior-database-reliability-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-20T19:49:13+00:00",
-    "source": "jobicy",
-    "_score": 15
-  },
-  {
-    "title": "Python Engineer",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149543-python-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:20:04+00:00",
-    "source": "jobicy",
-    "_score": 13
-  },
-  {
-    "title": "Customer Onboarding Specialist",
-    "company": "Planet Labs Inc.",
-    "location": "LATAM",
-    "url": "https://jobicy.com/jobs/150972-customer-onboarding-specialist",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-18T10:53:13+00:00",
-    "source": "jobicy",
-    "_score": 13
-  },
-  {
-    "title": "Staff Analytics Engineer",
-    "company": "Pleo",
-    "location": "Denmark,  Portugal,  Spain,  UK",
-    "url": "https://jobicy.com/jobs/151112-staff-analytics-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-19T14:48:26+00:00",
-    "source": "jobicy",
-    "_score": 13
-  },
-  {
-    "title": "Azumo: Technical Leader - Latin America",
-    "company": "",
-    "location": "Remote",
-    "url": "https://weworkremotely.com/remote-jobs/azumo-technical-leader-latin-america",
-    "job_type": "full-time",
-    "published_at": "Tue, 04 Aug 2026 22:12:17 +0000",
-    "source": "weworkremotely",
-    "_score": 13
-  },
-  {
-    "title": "Faire: Senior Staff Data Engineer - Platform Data and Analytics",
-    "company": "",
-    "location": "Remote",
-    "url": "https://weworkremotely.com/remote-jobs/faire-senior-staff-data-engineer-platform-data-and-analytics",
-    "job_type": "full-time",
-    "published_at": "Mon, 03 Aug 2026 07:30:43 +0000",
-    "source": "weworkremotely",
-    "_score": 13
-  },
-  {
-    "title": "Temporal Technologies: Senior Application Security Engineer",
-    "company": "",
-    "location": "Remote",
-    "url": "https://weworkremotely.com/remote-jobs/temporal-technologies-senior-application-security-engineer",
-    "job_type": "full-time",
-    "published_at": "Sat, 22 Aug 2026 07:31:03 +0000",
-    "source": "weworkremotely",
-    "_score": 13
-  },
-  {
-    "title": "Go (Golang) Software Engineer, Developer Tooling and Containers",
-    "company": "Canonical",
-    "location": "APAC",
-    "url": "https://jobicy.com/jobs/150365-go-golang-software-engineer-developer-tooling-and-containers",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-09T03:32:34+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Senior DevOps Engineer",
-    "company": "Experian",
-    "location": "Costa Rica",
-    "url": "https://jobicy.com/jobs/144464-senior-devops-engineer-5",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-25T03:50:05+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Microservices Engineer",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149558-microservices-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T17:05:08+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Software Engineering Director",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149571-software-engineering-director",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:55:03+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Partner Solutions Architect",
-    "company": "Nebius",
-    "location": "Europe",
-    "url": "https://jobicy.com/jobs/149503-partner-solutions-architect",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T15:58:26+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Customer Engineer",
-    "company": "Nebius",
-    "location": "Canada,  USA",
-    "url": "https://jobicy.com/jobs/147134-customer-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-20T02:55:05+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Marketing Engineer",
-    "company": "Figma",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151025-marketing-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-18T15:41:31+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Offensive Security Lead",
-    "company": "Nebius",
-    "location": "Europe",
-    "url": "https://jobicy.com/jobs/149365-offensive-security-lead",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-17T05:30:04+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Software Engineer – Support (USA Only - 100% Remote)",
-    "company": "Close",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151550-software-engineer-support-usa-only-100-remote",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-25T04:47:26+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Security Software Engineer",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149550-security-software-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:10:07+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Software Engineer - App Stores",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149552-software-engineer-app-stores",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:10:04+00:00",
-    "source": "jobicy",
-    "_score": 10
+    "_score": 3
   },
   {
     "title": "Senior/Staff Software Engineer (C++)",
@@ -921,151 +171,67 @@
     ],
     "published_at": "2026-08-22T04:08:49+00:00",
     "source": "jobicy",
-    "_score": 10
+    "_score": 3
   },
   {
-    "title": "Software Engineer Manager",
-    "company": "PolicyMe",
-    "location": "Canada",
-    "url": "https://jobicy.com/jobs/150904-software-engineer-manager",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-17T13:03:53+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Staff Software Engineer - Full Remote or Hybrid (m/f/d)",
-    "company": "Voyage Privé",
-    "location": "France",
-    "url": "https://jobicy.com/jobs/145788-staff-software-engineer-full-remote-or-hybrid-m-f-d",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-13T10:05:06+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "AI Tooling Engineer",
-    "company": "Qventus",
+    "title": "Opportunistic Application",
+    "company": "Quilter",
     "location": "USA",
-    "url": "https://jobicy.com/jobs/151154-ai-tooling-engineer",
+    "url": "https://jobicy.com/jobs/151364-opportunistic-application",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-19T19:11:04+00:00",
+    "published_at": "2026-08-22T04:08:22+00:00",
     "source": "jobicy",
-    "_score": 10
+    "_score": 3
   },
   {
-    "title": "Senior Security Engineer",
-    "company": "Qventus",
+    "title": "Director, Governance, Risk, and Compliance (GRC)",
+    "company": "Clover Health",
     "location": "USA",
-    "url": "https://jobicy.com/jobs/151504-senior-security-engineer-2",
+    "url": "https://jobicy.com/jobs/151150-director-governance-risk-and-compliance-grc",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-24T17:38:59+00:00",
+    "published_at": "2026-08-19T19:06:19+00:00",
     "source": "jobicy",
-    "_score": 10
+    "_score": 3
   },
   {
-    "title": "Implementation Engineer",
-    "company": "Qventus",
+    "title": "Offensive Security Lead",
+    "company": "Nebius",
+    "location": "Europe",
+    "url": "https://jobicy.com/jobs/149365-offensive-security-lead",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-08-17T05:30:04+00:00",
+    "source": "jobicy",
+    "_score": 3
+  },
+  {
+    "title": "Senior Principal, Sales Compensation Design & Strategy",
+    "company": "Cloudflare, Inc.",
     "location": "USA",
-    "url": "https://jobicy.com/jobs/151484-implementation-engineer-2",
+    "url": "https://jobicy.com/jobs/149375-senior-principal-sales-compensation-design-strategy",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-24T17:33:05+00:00",
+    "published_at": "2026-08-17T05:25:03+00:00",
     "source": "jobicy",
-    "_score": 10
+    "_score": 3
   },
   {
-    "title": "Lead Cloud Platform & Dev Ops Engineer",
-    "company": "University of Colorado",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/149238-lead-cloud-platform-dev-ops-engineer",
+    "title": "Senior Software Engineer (Game Engine)",
+    "company": "Playson",
+    "location": "Europe",
+    "url": "https://jobicy.com/jobs/146058-senior-software-engineer-game-engine",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-14T04:45:07+00:00",
+    "published_at": "2026-08-13T09:26:48+00:00",
     "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Lead Cloud Platform & Dev Ops Engineer",
-    "company": "University of Colorado Anschutz Medical Campus",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/149240-lead-cloud-platform-dev-ops-engineer-2",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-14T04:45:04+00:00",
-    "source": "jobicy",
-    "_score": 10
-  },
-  {
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149556-engineering-manager-solutions-engineering",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T17:10:04+00:00",
-    "source": "jobicy",
-    "_score": 8
-  },
-  {
-    "title": "Senior Security Operations Engineer",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149578-senior-security-operations-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:45:08+00:00",
-    "source": "jobicy",
-    "_score": 8
-  },
-  {
-    "title": "Senior Enterprise AI Engineer (AWS Bedrock)",
-    "company": "Oowlish Technology",
-    "location": "LATAM,  Argentina,  Brazil,  Mexico",
-    "url": "https://jobicy.com/jobs/151510-senior-enterprise-ai-engineer-aws-bedrock",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-24T17:40:41+00:00",
-    "source": "jobicy",
-    "_score": 8
-  },
-  {
-    "title": "Full Stack Web Engineer (Python & React)",
-    "company": "Oowlish Technology",
-    "location": "Argentina,  Brazil,  Mexico",
-    "url": "https://jobicy.com/jobs/151496-full-stack-web-engineer-python-react",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-24T17:36:32+00:00",
-    "source": "jobicy",
-    "_score": 8
-  },
-  {
-    "title": "Engineering Manager - Data Platform",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149561-engineering-manager-data-platform",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T17:05:02+00:00",
-    "source": "jobicy",
-    "_score": 8
+    "_score": 3
   },
   {
     "title": "Senior ML Engineer (AI Research, Physical AI)",
@@ -1077,209 +243,339 @@
     ],
     "published_at": "2026-08-12T14:19:53+00:00",
     "source": "jobicy",
-    "_score": 8
-  },
-  {
-    "title": "Senior Site Reliability / Gitops Engineer",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149544-senior-site-reliability-gitops-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:15:07+00:00",
-    "source": "jobicy",
-    "_score": 5
-  },
-  {
-    "title": "Customer Solution Architect (AMER)",
-    "company": "Supabase",
-    "location": "LATAM,  Canada,  USA",
-    "url": "https://jobicy.com/jobs/151044-customer-solution-architect-amer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-18T17:59:41+00:00",
-    "source": "jobicy",
-    "_score": 5
-  },
-  {
-    "title": "Senior IT Engineer",
-    "company": "Qventus",
-    "location": "Canada",
-    "url": "https://jobicy.com/jobs/151501-senior-it-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-24T17:38:06+00:00",
-    "source": "jobicy",
-    "_score": 5
-  },
-  {
-    "title": "SEI Instructor Lead",
-    "company": "Remote",
-    "location": "Australia,  Canada,  Singapore,  UK,  USA",
-    "url": "https://jobicy.com/jobs/151482-sei-instructor-lead",
-    "job_type": [
-      "Contract"
-    ],
-    "published_at": "2026-08-24T17:32:29+00:00",
-    "source": "jobicy",
     "_score": 3
   },
   {
-    "title": "Customer Success Engineer (Scaled)",
-    "company": "Deepgram",
-    "location": "USA",
-    "url": "https://jobicy.com/jobs/151406-customer-success-engineer-scaled",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:51:33+00:00",
-    "source": "jobicy",
-    "_score": 3
-  },
-  {
-    "title": "Engineering Manager",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149575-engineering-manager",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:47:11+00:00",
-    "source": "jobicy",
-    "_score": 3
-  },
-  {
-    "title": "Junior Linux Kernel Engineer - Ubuntu",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149520-junior-linux-kernel-engineer-ubuntu",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:40:08+00:00",
-    "source": "jobicy",
-    "_score": 3
-  },
-  {
-    "title": "Ubuntu Engineering Lead",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149537-ubuntu-engineering-lead",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:25:03+00:00",
-    "source": "jobicy",
-    "_score": 3
-  },
-  {
-    "title": "Golang Engineer",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149538-golang-engineer-2",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:25:02+00:00",
-    "source": "jobicy",
-    "_score": 3
-  },
-  {
-    "title": "Technical Manager - Automotive and Industrial",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149546-technical-manager-automotive-and-industrial",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:15:05+00:00",
-    "source": "jobicy",
-    "_score": 3
-  },
-  {
-    "title": "Sales Engineer, EMEA",
-    "company": "Socket",
+    "title": "Senior Manager, Customer Success Engineering",
+    "company": "Veeam Software",
     "location": "UK",
-    "url": "https://jobicy.com/jobs/151047-sales-engineer-emea",
+    "url": "https://jobicy.com/jobs/150553-senior-manager-customer-success-engineering",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-18T18:06:18+00:00",
+    "published_at": "2026-08-12T12:08:26+00:00",
     "source": "jobicy",
     "_score": 3
   },
   {
-    "title": "Senior Business Engineer",
-    "company": "Reddit",
-    "location": "Canada",
-    "url": "https://jobicy.com/jobs/147488-senior-business-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-25T03:50:12+00:00",
-    "source": "jobicy",
-    "_score": 0
-  },
-  {
-    "title": "Ubuntu Security Engineer",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149565-ubuntu-security-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T17:00:05+00:00",
-    "source": "jobicy",
-    "_score": 0
-  },
-  {
-    "title": "Embedded Linux Field Engineer for Devices/IoT",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149535-embedded-linux-field-engineer-for-devices-iot",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:25:07+00:00",
-    "source": "jobicy",
-    "_score": 0
-  },
-  {
-    "title": "Site Reliability / Gitops Engineer",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "url": "https://jobicy.com/jobs/149553-site-reliability-gitops-engineer",
-    "job_type": [
-      "Full-Time"
-    ],
-    "published_at": "2026-08-22T16:10:02+00:00",
-    "source": "jobicy",
-    "_score": 0
-  },
-  {
-    "title": "Manager I, Documentation",
-    "company": "Datadog",
+    "title": "Customer Enablement Manager",
+    "company": "Mural",
     "location": "USA",
-    "url": "https://jobicy.com/jobs/151039-manager-i-documentation",
+    "url": "https://jobicy.com/jobs/150283-customer-enablement-manager",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-18T17:13:25+00:00",
+    "published_at": "2026-08-06T16:12:49+00:00",
+    "source": "jobicy",
+    "_score": 3
+  },
+  {
+    "title": "Sr. Customer Success Engineer",
+    "company": "Veeam Software",
+    "location": "USA",
+    "url": "https://jobicy.com/jobs/150280-sr-customer-success-engineer",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-08-06T16:12:44+00:00",
+    "source": "jobicy",
+    "_score": 3
+  },
+  {
+    "title": "PRINCIPAL R&D/PRODUCT DVL ENGINEER",
+    "company": "TE Connectivity",
+    "location": "USA",
+    "url": "https://jobicy.com/jobs/148357-principal-rd-product-dvl-engineer",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-08-05T06:20:07+00:00",
+    "source": "jobicy",
+    "_score": 3
+  },
+  {
+    "title": "Customer Success Engineer",
+    "company": "Veeam Software",
+    "location": "Germany",
+    "url": "https://jobicy.com/jobs/150236-customer-success-engineer-4",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-08-04T17:44:51+00:00",
+    "source": "jobicy",
+    "_score": 3
+  },
+  {
+    "title": "Principal Hardware Design Engineer - Computing Products",
+    "company": "RTX",
+    "location": "USA",
+    "url": "https://jobicy.com/jobs/150048-principal-hardware-design-engineer-computing-products",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-08-01T03:22:20+00:00",
+    "source": "jobicy",
+    "_score": 3
+  },
+  {
+    "title": "SOTIF Expert (all genders)",
+    "company": "MOIA",
+    "location": "Germany",
+    "url": "https://jobicy.com/jobs/143148-sotif-expert-all-genders",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-07-28T13:45:03+00:00",
+    "source": "jobicy",
+    "_score": 3
+  },
+  {
+    "title": "Commercial Finance Lead",
+    "company": "StackAdapt",
+    "location": "Canada,  USA",
+    "url": "https://jobicy.com/jobs/147749-commercial-finance-lead",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-07-26T10:45:04+00:00",
+    "source": "jobicy",
+    "_score": 3
+  },
+  {
+    "title": "Senior Marketing Analyst, Strategy & Analytics",
+    "company": "Toptal",
+    "location": "Canada,  Europe,  UK,  USA",
+    "url": "https://jobicy.com/jobs/148653-senior-marketing-analyst-strategy-analytics",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-08-05T04:40:08+00:00",
+    "source": "jobicy",
+    "_score": 3
+  },
+  {
+    "title": "Data Scientist, Analytics (Technical Leadership)",
+    "company": "Meta",
+    "location": "USA",
+    "url": "https://jobicy.com/jobs/141971-data-scientist-analytics-technical-leadership",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-07-28T11:55:08+00:00",
+    "source": "jobicy",
+    "_score": 3
+  },
+  {
+    "title": "Ignition, Inc.: Mac MSP Help Desk Guru (work from home)",
+    "company": "",
+    "location": "Remote",
+    "url": "https://weworkremotely.com/remote-jobs/ignition-inc-mac-msp-help-desk-guru-work-from-home",
+    "job_type": "full-time",
+    "published_at": "Thu, 28 May 2026 07:25:37 +0000",
+    "source": "weworkremotely",
+    "_score": 3
+  },
+  {
+    "title": "Content Reviewer - English US",
+    "company": "TELUS Digital",
+    "location": "USA",
+    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-english-us-2091105",
+    "job_type": "part_time",
+    "published_at": "2026-08-21T05:54:39",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Senior Golang Developer",
+    "company": "Lemon.io",
+    "location": "Europe, USA, UK, Canada, Australia, Singapore",
+    "url": "https://remotive.com/remote-jobs/software-development/senior-golang-developer-2091098",
+    "job_type": "full_time",
+    "published_at": "2026-08-20T13:30:47",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Vice President, Technology & Digital Strategy",
+    "company": "Shatterproof",
+    "location": "USA",
+    "url": "https://remotive.com/remote-jobs/all-others/vice-president-technology-digital-strategy-2091104",
+    "job_type": "full_time",
+    "published_at": "2026-08-20T09:54:55",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Senior Data Engineer",
+    "company": "Lemon.io",
+    "location": "LATAM, Europe, USA, Canada, APAC",
+    "url": "https://remotive.com/remote-jobs/software-development/senior-data-engineer-2091097",
+    "job_type": "full_time",
+    "published_at": "2026-08-19T12:12:11",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Senior Independent AI Engineer / Architect",
+    "company": "A.Team",
+    "location": "Americas, Europe, Israel",
+    "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
+    "job_type": "contract",
+    "published_at": "2026-08-16T10:09:41",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Senior Independent Software Developer",
+    "company": "A.Team",
+    "location": "Americas, Europe, Israel",
+    "url": "https://remotive.com/remote-jobs/software-development/senior-independent-software-developer-1919265",
+    "job_type": "contract",
+    "published_at": "2026-08-16T10:09:34",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Head of Marketing & Communications",
+    "company": "garden3d",
+    "location": "Worldwide",
+    "url": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068",
+    "job_type": "contract",
+    "published_at": "2026-08-15T19:58:15",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Tech Lead Full-Stack Rails Engineer",
+    "company": "Mitre Media",
+    "location": "USA, Canada, USA timezones",
+    "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
+    "job_type": "full_time",
+    "published_at": "2026-08-14T20:33:39",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Face Deduplication Collection",
+    "company": "TELUS Digital",
+    "location": "USA",
+    "url": "https://remotive.com/remote-jobs/all-others/face-deduplication-collection-2091093",
+    "job_type": "part_time",
+    "published_at": "2026-08-13T06:25:53",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Remote Office Assistant",
+    "company": "Coalition Technologies ",
+    "location": "Worldwide",
+    "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
+    "job_type": "full_time",
+    "published_at": "2026-08-11T20:18:02",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Inside Sales Contractor",
+    "company": "Credit Wellness, LLC",
+    "location": "Worldwide",
+    "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
+    "job_type": "full_time",
+    "published_at": "2026-08-08T21:48:06",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Tier III Service Desk Engineer",
+    "company": "Unio Digital",
+    "location": "Worldwide",
+    "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
+    "job_type": "full_time",
+    "published_at": "2026-08-07T01:10:06",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Sales Jedi",
+    "company": "Creative Force ",
+    "location": "Europe",
+    "url": "https://remotive.com/remote-jobs/sales/sales-jedi-2091088",
+    "job_type": "full_time",
+    "published_at": "2026-08-05T09:45:42",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "SaaS Product Support Jedi",
+    "company": "Creative Force",
+    "location": "Europe, EMEA, UK, Germany, France, European timezones",
+    "url": "https://remotive.com/remote-jobs/customer-service/saas-product-support-jedi-2091087",
+    "job_type": "full_time",
+    "published_at": "2026-08-05T08:47:07",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Freelance Writer",
+    "company": "IAPWE",
+    "location": "Worldwide",
+    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
+    "job_type": "freelance",
+    "published_at": "2026-08-04T16:53:05",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Freelance Copywriter",
+    "company": "Coalition Technologies ",
+    "location": "Worldwide",
+    "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
+    "job_type": "freelance",
+    "published_at": "2026-08-02T20:00:46",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Senior Graphic Designer",
+    "company": "Lemon.io",
+    "location": "Americas, Europe, Asia, Africa, Oceania",
+    "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081",
+    "job_type": "full_time",
+    "published_at": "2026-07-28T14:23:05",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "Data Labeling Specialists",
+    "company": "Workada",
+    "location": "USA",
+    "url": "https://remotive.com/remote-jobs/data/data-labeling-specialists-2090903",
+    "job_type": "freelance",
+    "published_at": "2026-07-26T20:49:11",
+    "source": "remotive",
+    "_score": 0
+  },
+  {
+    "title": "(Senior) Product Manager Smart Metering & Steering (m/f/d)",
+    "company": "1KOMMA5°",
+    "location": "Germany",
+    "url": "https://jobicy.com/jobs/145652-senior-product-manager-smart-metering-steering-m-f-d",
+    "job_type": [
+      "Full-Time"
+    ],
+    "published_at": "2026-08-09T03:35:06+00:00",
     "source": "jobicy",
     "_score": 0
   },
   {
-    "title": "Application Security Engineer",
-    "company": "Nebius",
-    "location": "Europe,  Israel",
-    "url": "https://jobicy.com/jobs/146769-application-security-engineer-2",
+    "title": "Senior Sales Account Manager",
+    "company": "GE Vernova",
+    "location": "UK",
+    "url": "https://jobicy.com/jobs/150006-senior-sales-account-manager",
     "job_type": [
       "Full-Time"
     ],
-    "published_at": "2026-08-18T02:55:03+00:00",
+    "published_at": "2026-08-01T03:12:08+00:00",
     "source": "jobicy",
     "_score": 0
   }
